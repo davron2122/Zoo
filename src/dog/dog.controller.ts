@@ -20,7 +20,7 @@ export class DogController {
         return this.dogService.introduce();
     }
 
-    @Post('edit')
+    @Post('greet/:id')
     public modifyDetail(@Body() body: any): string {
         console.log('body:', body);
         return this.dogService.modifyDetail();

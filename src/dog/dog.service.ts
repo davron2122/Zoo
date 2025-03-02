@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common';
 
+
+//Dog Scheme Model 
 @Injectable()
 export class DogService {
     public getHello(): string {
